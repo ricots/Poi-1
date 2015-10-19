@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:key="Settings" android:title="设置">
+
+		<CheckBoxPreference
+			android:defaultValue="true"
+			android:key="if_no_image"
+			android:title="@string/if_no_image"
+			android:layout="@layout/custom_preference"
+			android:summary="2G/3G网络下不显示图片"/>
+
+		<Preference
+			android:key="cache"
+			android:title="@string/clear_cache"
+			android:layout="@layout/custom_preference"
+			android:summary="0KB" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:key="About" android:title="关于">
+
+		<com.github.kaninohon.poi.ui.widget.Preference
+			android:key="version"
+			android:title="@string/version"
+		    android:summary="1.0"/>
+
+		<com.github.kaninohon.poi.ui.widget.Preference
+			android:key="mail"
+			android:title="@string/contact"
+			android:summary="kaninohon@163.com"/>
+
+ 
+
+		<com.github.kaninohon.poi.ui.widget.Preference
+			android:key="reference"
+			android:title="@string/reference"
+			android:summary="@string/reference_projects"/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

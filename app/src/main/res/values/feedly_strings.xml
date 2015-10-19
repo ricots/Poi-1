@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="feedly_client_id">feedly</string>
+	<string name="feedly_client_secret">0XP4XQ07VVMDWBKUHTJM4WUQ</string>
+	<string name="feedly_redirect_uri">https://cloud.feedly.com/feedly.html</string>
+	<string name="feedly_api_url">http://cloud.feedly.com</string>
+
+</resources>
